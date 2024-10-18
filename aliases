@@ -1,0 +1,16 @@
+#!/bin/bash
+
+alias ls='gls --group-directories-first --color=auto'  # brew install coreutils
+alias l='gls -lh --group-directories-first --color=auto'
+alias ll='gls -lah --group-directories-first --color=auto'
+
+alias rep='cd ~/Repositories'
+alias dsk='cd ~/Desktop'
+alias dwn='cd ~/Downloads'
+
+alias tt='tmux ls 2>/dev/null || echo "no running sessions"'
+alias ts='tmux new -s'
+alias ta='tmux attach-session -t'
+
+alias tree='tree -C'
+alias cat='bat'
